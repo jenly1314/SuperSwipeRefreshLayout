@@ -138,8 +138,8 @@ class MaterialProgressDrawable extends Drawable implements Animatable {
      * Set the overall size for the progress spinner. This updates the radius
      * and stroke width of the ring.
      *
-     * @param size One of {@link com.king.widget.MaterialProgressDrawable.LARGE} or
-     *            {@link com.king.widget.MaterialProgressDrawable.DEFAULT}
+     * @param size One of {@link MaterialProgressDrawable.LARGE} or
+     *            {@link MaterialProgressDrawable.DEFAULT}
      */
     public void updateSizes(@ProgressDrawableSize int size) {
         if (size == LARGE) {

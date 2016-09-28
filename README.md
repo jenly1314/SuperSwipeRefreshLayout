@@ -30,7 +30,7 @@ compile 'com.king.widget:superswiperefreshlayout:1.0'
 ```
 
 使用示例：
-###Xml:
+###XML:
 ```
     <com.king.widget.SuperSwipeRefreshLayout
         android:id="@+id/superSwipeRefreshLayout"
@@ -49,7 +49,7 @@ compile 'com.king.widget:superswiperefreshlayout:1.0'
 ```
 
 
-或代码设置刷新模式：
+或代码设置刷新：
 ###Java:
 ```
   superSwipeRefreshLayout.setDirection(SuperSwipeRefreshLayout.Direction.TOP);

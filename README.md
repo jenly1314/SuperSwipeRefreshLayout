@@ -29,9 +29,8 @@ compile 'com.king.widget:superswiperefreshlayout:1.0'
 </dependency>
 ```
 
-使用示例：
-###XML:
-```
+使用布局示例：
+```Xml
     <com.king.widget.SuperSwipeRefreshLayout
         android:id="@+id/superSwipeRefreshLayout"
         android:layout_width="match_parent"
@@ -50,8 +49,7 @@ compile 'com.king.widget:superswiperefreshlayout:1.0'
 
 
 或代码设置刷新：
-###Java:
-```
+```Java
   superSwipeRefreshLayout.setDirection(SuperSwipeRefreshLayout.Direction.TOP);
  
   superSwipeRefreshLayout.setDirection(SuperSwipeRefreshLayout.Direction.BOTTOM);

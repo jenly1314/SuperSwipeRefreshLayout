@@ -4,6 +4,9 @@
 
 SuperSwipeRefreshLayout是在SwipeRefreshLayout的基础之上扩展修改，让其支持上拉刷新，基本用法与SwipeRefreshLayout一致。
 
+![Image](https://github.com/jenly1314/SuperSwipeRefreshLayout/blob/master/gif.gif)
+
+
 ##引入
 
 ###Maven：

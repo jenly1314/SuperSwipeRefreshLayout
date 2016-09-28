@@ -48,7 +48,7 @@ compile 'com.king.widget:superswiperefreshlayout:1.0'
 ```
 
 
-或代码设置刷新：
+代码设置刷新方向：
 ```Java
   superSwipeRefreshLayout.setDirection(SuperSwipeRefreshLayout.Direction.TOP);
  
@@ -56,6 +56,8 @@ compile 'com.king.widget:superswiperefreshlayout:1.0'
   
   superSwipeRefreshLayout.setDirection(SuperSwipeRefreshLayout.Direction.BOTH);
 ```
+
+更多使用详情请查看demo示例。
 
 ## License
 

@@ -1,4 +1,6 @@
 # SuperSwipeRefreshLayout
+[![](https://jitpack.io/v/jenly1314/SuperSwipeRefreshLayout.svg)](https://jitpack.io/#jenly1314/SuperSwipeRefreshLayout)
+[![Issue Count](https://codeclimate.com/github/jenly1314/SuperSwipeRefreshLayout/badges/issue_count.svg)](https://codeclimate.com/github/jenly1314/SuperSwipeRefreshLayout)
 [![License](https://img.shields.io/badge/license-Apche%202.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 [![Blog](https://img.shields.io/badge/blog-Jenly-9933CC.svg)](http://blog.csdn.net/jenly121)
 

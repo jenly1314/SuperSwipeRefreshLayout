@@ -42,15 +42,13 @@ compile 'com.king.widget:superswiperefreshlayout:1.0'
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recyclerView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-        </android.support.v7.widget.RecyclerView>
+            android:layout_height="match_parent"/>
 
     </com.king.widget.SuperSwipeRefreshLayout>
 ```
 
 
-代码设置刷新方向：
+代码设置支持滑动刷新方向：
 ```Java
   superSwipeRefreshLayout.setDirection(SuperSwipeRefreshLayout.Direction.TOP);
  

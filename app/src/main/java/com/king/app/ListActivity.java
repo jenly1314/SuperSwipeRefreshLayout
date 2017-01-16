@@ -14,7 +14,7 @@ import java.util.List;
 
 /**
  * @author Jenly <a href="mailto:jenly1314@gmail.com">Jenly</a>
- * @date 2016/9/18
+ * @sine 2016/9/18
  */
 public class ListActivity extends BaseActivity{
 

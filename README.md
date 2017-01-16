@@ -16,17 +16,17 @@ SuperSwipeRefreshLayout是在SwipeRefreshLayout的基础之上扩展修改，让
 <dependency>
   <groupId>com.king.widget</groupId>
   <artifactId>superswiperefreshlayout</artifactId>
-  <version>1.0</version>
+  <version>1.0.1</version>
   <type>pom</type>
 </dependency>
 ```
 ###Gradle:
 ```
-compile 'com.king.widget:superswiperefreshlayout:1.0'
+compile 'com.king.widget:superswiperefreshlayout:1.0.1'
 ```
 ###Lvy:
 ```
-<dependency org='com.king.widget' name='superswiperefreshlayout' rev='1.0'>
+<dependency org='com.king.widget' name='superswiperefreshlayout' rev='1.0.1'>
   <artifact name='$AID' ext='pom'></artifact>
 </dependency>
 ```

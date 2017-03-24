@@ -9,9 +9,9 @@ SuperSwipeRefreshLayout是在SwipeRefreshLayout的基础之上扩展修改，让
 ![Image](https://github.com/jenly1314/SuperSwipeRefreshLayout/blob/master/gif.gif)
 
 
-##引入
+## 引入
 
-###Maven：
+### Maven：
 ```
 <dependency>
   <groupId>com.king.widget</groupId>
@@ -20,11 +20,11 @@ SuperSwipeRefreshLayout是在SwipeRefreshLayout的基础之上扩展修改，让
   <type>pom</type>
 </dependency>
 ```
-###Gradle:
+### Gradle:
 ```
 compile 'com.king.widget:superswiperefreshlayout:1.0.1'
 ```
-###Lvy:
+### Lvy:
 ```
 <dependency org='com.king.widget' name='superswiperefreshlayout' rev='1.0.1'>
   <artifact name='$AID' ext='pom'></artifact>

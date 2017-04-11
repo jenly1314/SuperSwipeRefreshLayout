@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.king.widget.SuperSwipeRefreshLayout
+    <com.king.view.superswiperefreshlayout.SuperSwipeRefreshLayout
         android:id="@+id/ssrl"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -18,5 +18,5 @@
 
         </ListView>
 
-    </com.king.widget.SuperSwipeRefreshLayout>
+    </com.king.view.superswiperefreshlayout.SuperSwipeRefreshLayout>
 </LinearLayout>

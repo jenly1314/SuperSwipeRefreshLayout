@@ -1,13 +1,15 @@
-package com.king.app;
+package com.king.superswiperefreshlayout;
 
 
 import android.os.Handler;
-import android.widget.ListView;
+import android.support.v7.widget.DefaultItemAnimator;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 
-import com.king.app.adapter.ListAdapter;
+import com.king.superswiperefreshlayout.adapter.RecyclerAdapter;
 import com.king.base.BaseActivity;
 import com.king.base.model.EventMessage;
-import com.king.widget.SuperSwipeRefreshLayout;
+import com.king.view.superswiperefreshlayout.SuperSwipeRefreshLayout;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,13 +18,13 @@ import java.util.List;
  * @author Jenly <a href="mailto:jenly1314@gmail.com">Jenly</a>
  * @sine 2016/9/18
  */
-public class ListActivity extends BaseActivity{
+public class MainActivity extends BaseActivity{
 
     private SuperSwipeRefreshLayout ssrl;
 
-    private ListView listView;
+    private RecyclerView recyclerView;
 
-    private ListAdapter adapter;
+    private RecyclerAdapter adapter;
 
     private List<String> listData;
 
@@ -32,12 +34,13 @@ public class ListActivity extends BaseActivity{
 
     @Override
     public void initUI() {
-        setContentView(R.layout.activity_list);
+        setContentView(R.layout.activity_main);
 
         ssrl = findView(R.id.ssrl);
         ssrl.setColorSchemeColors(colors);
-        listView = findView(R.id.listView);
-
+        recyclerView = findView(R.id.recyclerView);
+        recyclerView.setItemAnimator(new DefaultItemAnimator());
+        recyclerView.addItemDecoration(new DividerItemDecoration(this,DividerItemDecoration.VERTICAL));
     }
 
     @Override
@@ -54,6 +57,7 @@ public class ListActivity extends BaseActivity{
             }
         });
 
+
     }
 
     @Override
@@ -65,8 +69,10 @@ public class ListActivity extends BaseActivity{
             listData.add("Item" + i);
         }
 
-        adapter = new ListAdapter(context,listData);
-        listView.setAdapter(adapter);
+        adapter = new RecyclerAdapter(context,listData);
+
+        recyclerView.setLayoutManager(new LinearLayoutManager(context,LinearLayoutManager.VERTICAL,false));
+        recyclerView.setAdapter(adapter);
 
     }
 
@@ -75,7 +81,7 @@ public class ListActivity extends BaseActivity{
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                ListActivity.this.runOnUiThread(new Runnable() {
+                MainActivity.this.runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
                         listData.clear();
@@ -87,14 +93,14 @@ public class ListActivity extends BaseActivity{
                     }
                 });
             }
-        }, 2500);
+        }, 1500);
     }
 
     private void loadMore(){
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                ListActivity.this.runOnUiThread(new Runnable() {
+                MainActivity.this.runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
                         listData.add("Item" + listData.size());
@@ -102,7 +108,7 @@ public class ListActivity extends BaseActivity{
                     }
                 });
             }
-        }, 2500);
+        }, 1500);
     }
 
     private void refreshView(){

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.king.widget;
+package com.king.view.superswiperefreshlayout;
 
 
 import android.content.Context;

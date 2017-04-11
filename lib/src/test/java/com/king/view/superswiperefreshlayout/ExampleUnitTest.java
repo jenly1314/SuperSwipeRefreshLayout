@@ -1,4 +1,4 @@
-package com.king.widget;
+package com.king.view.superswiperefreshlayout;
 
 import org.junit.Test;
 

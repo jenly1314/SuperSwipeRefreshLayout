@@ -1,4 +1,4 @@
-package com.king.widget;
+package com.king.view.superswiperefreshlayout;
 
 import android.content.Context;
 import android.graphics.Canvas;

@@ -1,4 +1,5 @@
 # SuperSwipeRefreshLayout
+[![Download](https://img.shields.io/badge/download-App-blue.svg)](https://raw.githubusercontent.com/jenly1314/SuperSwipeRefreshLayout/master/app/app-release.apk)
 [![](https://jitpack.io/v/jenly1314/SuperSwipeRefreshLayout.svg)](https://jitpack.io/#jenly1314/SuperSwipeRefreshLayout)
 [![Issue Count](https://codeclimate.com/github/jenly1314/SuperSwipeRefreshLayout/badges/issue_count.svg)](https://codeclimate.com/github/jenly1314/SuperSwipeRefreshLayout)
 [![License](https://img.shields.io/badge/license-Apche%202.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
@@ -16,17 +17,17 @@ SuperSwipeRefreshLayout是在SwipeRefreshLayout的基础之上扩展修改，让
 <dependency>
   <groupId>com.king.widget</groupId>
   <artifactId>superswiperefreshlayout</artifactId>
-  <version>1.0.1</version>
+  <version>1.1.0</version>
   <type>pom</type>
 </dependency>
 ```
 ### Gradle:
 ```
-compile 'com.king.widget:superswiperefreshlayout:1.0.1'
+compile 'com.king.widget:superswiperefreshlayout:1.1.0'
 ```
 ### Lvy:
 ```
-<dependency org='com.king.widget' name='superswiperefreshlayout' rev='1.0.1'>
+<dependency org='com.king.widget' name='superswiperefreshlayout' rev='1.1.0'>
   <artifact name='$AID' ext='pom'></artifact>
 </dependency>
 ```

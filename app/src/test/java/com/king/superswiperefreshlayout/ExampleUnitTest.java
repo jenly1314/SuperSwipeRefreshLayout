@@ -1,4 +1,4 @@
-package com.king.app;
+package com.king.superswiperefreshlayout;
 
 import org.junit.Test;
 

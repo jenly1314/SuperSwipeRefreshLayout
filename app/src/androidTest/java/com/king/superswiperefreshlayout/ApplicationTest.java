@@ -1,4 +1,4 @@
-package com.king.widget;
+package com.king.superswiperefreshlayout;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

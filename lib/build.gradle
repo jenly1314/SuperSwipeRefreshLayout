@@ -3,7 +3,7 @@ apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 24
-    buildToolsVersion "24.0.0"
+    buildToolsVersion "25.0.0"
 
     defaultConfig {
         minSdkVersion 9
@@ -35,10 +35,11 @@ dependencies {
 //添加
 publish {
     userOrg = 'jenly'//bintray.com用户名
-    groupId = 'com.king.widget'//jcenter上的路径
+    groupId = 'com.king.view'//jcenter上的路径
     artifactId = 'superswiperefreshlayout'//项目名称
-    publishVersion = '1.0.1'//版本号
+    publishVersion = '1.1.0'//版本号
     desc = 'SuperSwipeRefreshLayout for Android'//描述
     website = 'https://github.com/jenly1314/SuperSwipeRefreshLayout'//网站
 }
+
 

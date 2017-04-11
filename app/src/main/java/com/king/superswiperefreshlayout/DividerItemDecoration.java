@@ -1,4 +1,4 @@
-package com.king.app;
+package com.king.superswiperefreshlayout;
 
 import android.content.Context;
 import android.content.res.TypedArray;

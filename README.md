@@ -15,7 +15,7 @@ SuperSwipeRefreshLayout是在SwipeRefreshLayout的基础之上扩展修改，让
 ### Maven：
 ```
 <dependency>
-  <groupId>com.king.widget</groupId>
+  <groupId>com.king.view</groupId>
   <artifactId>superswiperefreshlayout</artifactId>
   <version>1.1.0</version>
   <type>pom</type>
@@ -23,29 +23,29 @@ SuperSwipeRefreshLayout是在SwipeRefreshLayout的基础之上扩展修改，让
 ```
 ### Gradle:
 ```
-compile 'com.king.widget:superswiperefreshlayout:1.1.0'
+compile 'com.king.view:superswiperefreshlayout:1.1.0'
 ```
 ### Lvy:
 ```
-<dependency org='com.king.widget' name='superswiperefreshlayout' rev='1.1.0'>
+<dependency org='com.king.view' name='superswiperefreshlayout' rev='1.1.0'>
   <artifact name='$AID' ext='pom'></artifact>
 </dependency>
 ```
 
 使用布局示例：
 ```Xml
-    <com.king.widget.SuperSwipeRefreshLayout
+    <com.king.view.superswiperefreshlayout.SuperSwipeRefreshLayout
         android:id="@+id/superSwipeRefreshLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:direction="both">
 
-        <android.support.v7.widget.RecyclerView
+        <android.support.v7.view.RecyclerView
             android:id="@+id/recyclerView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 
-    </com.king.widget.SuperSwipeRefreshLayout>
+    </com.king.view.superswiperefreshlayout.SuperSwipeRefreshLayout>
 ```
 
 

@@ -13,7 +13,7 @@ SuperSwipeRefreshLayout是在SwipeRefreshLayout的基础之上扩展修改，让
 ## 引入
 
 ### Maven：
-```
+```maven
 <dependency>
   <groupId>com.king.view</groupId>
   <artifactId>superswiperefreshlayout</artifactId>
@@ -22,11 +22,11 @@ SuperSwipeRefreshLayout是在SwipeRefreshLayout的基础之上扩展修改，让
 </dependency>
 ```
 ### Gradle:
-```
+```gradle
 compile 'com.king.view:superswiperefreshlayout:1.1.0'
 ```
 ### Lvy:
-```
+```lvy
 <dependency org='com.king.view' name='superswiperefreshlayout' rev='1.1.0'>
   <artifact name='$AID' ext='pom'></artifact>
 </dependency>

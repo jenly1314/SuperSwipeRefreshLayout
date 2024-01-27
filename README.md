@@ -3,7 +3,6 @@
 [![](https://jitpack.io/v/jenly1314/SuperSwipeRefreshLayout.svg)](https://jitpack.io/#jenly1314/SuperSwipeRefreshLayout)
 [![API](https://img.shields.io/badge/API-9%2B-blue.svg?style=flat)](https://android-arsenal.com/api?level=9)
 [![License](https://img.shields.io/badge/license-Apche%202.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
-[![Blog](https://img.shields.io/badge/blog-Jenly-9933CC.svg)](http://blog.csdn.net/jenly121)
 
 SuperSwipeRefreshLayout是在SwipeRefreshLayout的基础之上扩展修改，让其支持上拉刷新，基本用法与SwipeRefreshLayout一致。
 
@@ -59,8 +58,7 @@ SuperSwipeRefreshLayout是在SwipeRefreshLayout的基础之上扩展修改，让
   
   superSwipeRefreshLayout.setDirection(SuperSwipeRefreshLayout.Direction.BOTH);
 ```
-
-更多使用详情请查看demo示例。
+更多使用详情，请查看[app](app)中的源码使用示例或直接查看[API帮助文档](https://jitpack.io/com/github/jenly1314/SuperSwipeRefreshLayout/latest/javadoc/)
 
 ## 赞赏
 如果您喜欢SuperSwipeRefreshLayout，或感觉SuperSwipeRefreshLayout帮助到了您，可以点右上角“Star”支持一下，您的支持就是我的动力，谢谢:smiley:

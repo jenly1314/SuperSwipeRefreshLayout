@@ -61,6 +61,8 @@ SuperSwipeRefreshLayout是在SwipeRefreshLayout的基础之上扩展修改，让
 ```
 更多使用详情，请查看[app](app)中的源码使用示例或直接查看[API帮助文档](https://jitpack.io/com/github/jenly1314/SuperSwipeRefreshLayout/latest/javadoc/)
 
+## 相关推荐
+- [SuperSlidingPaneLayout](https://github.com/jenly1314/SuperSlidingPaneLayout) 是在SlidingPaneLayout的基础之上扩展修改，新增几种不同的侧滑效果，基本用法与SlidingPaneLayout一致。
 ---
 
 ![footer](https://jenly1314.github.io/page/footer.svg)
